@@ -5,3 +5,9 @@
 #
 #   movies = Movie.create([{ name: "Star Wars" }, { name: "Lord of the Rings" }])
 #   Character.create(name: "Luke", movie: movies.first)
+
+puts "Creando 10 productos"
+
+10.times do |i|
+  Product.create(product_name: "Producto #{i}")
+end
